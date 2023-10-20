@@ -1,0 +1,21 @@
+#container{
+    background-color:rgb(30, 202, 255);
+    height: 700px;
+    display:flex;
+    flex-flow:column ;
+    flex-flow:wrap;
+    
+    
+}
+
+.item{
+ background-color:rgb(27, 240, 255);
+ color: rgb(93, 97, 38);
+ width: 40%;
+ margin: 5px;
+ padding: 20px;
+ font-size: larger;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
