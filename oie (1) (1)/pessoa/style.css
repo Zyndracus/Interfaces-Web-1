@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;   
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.2rem;
+    background-color: #a5a5a5;
+    
+}
+
+
+
+ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;   
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.2rem;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(magneto-bold.ttf);
+  }
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    border: 5px solid #ff0000;
+    background-color: rgb(68, 68, 68);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    background-color: #393b3d;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(107, 107, 107);
+    line-height: 0.1%;
+    border: 2px solid rgb(255, 0, 0);
+        
+    
+}
+
+p.based{display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: myFirstFont;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 360px;
+}
+
+
+
+
+
+
+.menu{
+    display: flex;
+    text-align: center;
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu a{
+    background-color: #575353 ;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #424242; 
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 2%;  
+    background-image: url("plano.jpg"); 
+}
+
+
+
+.item{
+    flex: 1;
+    align-items: center;
+    background-color: #575353;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 5%;
+    
+}
+
+img.imagem-grande{
+    width: 295px;
+    height: 180px;
+}
+
+
+p {
+    text-align: justify;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+
